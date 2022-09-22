@@ -1,0 +1,29 @@
+.mainSection{
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 12rem;
+}
+.mainSection > p {
+    font-size: 4rem;
+  
+    position: absolute;
+    top: 83px;
+}
+.btnContainer{
+
+    margin-top: 3rem;
+
+}
+.btnContainer > button {
+    margin: 0 5rem;
+    width: 12rem;
+    height: 5rem;
+    font-size: 3rem;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 20px;
+
+}
