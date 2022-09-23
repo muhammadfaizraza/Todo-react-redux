@@ -1,0 +1,12 @@
+article{
+
+    border: 1px solid black;
+    width: 33rem;
+    margin: 20px;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    margin: 27px auto;
+    border-radius: 10px 20px 30px 49px;
+    height: 13rem;
+}

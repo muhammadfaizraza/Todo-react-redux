@@ -1,8 +1,9 @@
 
-import Axios from './Components/Axios';
-import './App.css';
 
-import Counter from './Features/Counter/Counter';
+import './App.css';
+import {AddPost} from './Features/AddPost';
+import Post from './Features/Posts/Post';
+
 
 function App() {
   const Prizes = [{ Rank:1, Amount: 300 }, { Rank:2, Amount: 500 }, {Rank:3, Amount: 400 }]
@@ -13,8 +14,9 @@ function App() {
   
   return (
     <div className="App">
-  <Counter/>
- <Axios/>
+        <AddPost/>
+  <Post/>
+
     </div>
   );
 }

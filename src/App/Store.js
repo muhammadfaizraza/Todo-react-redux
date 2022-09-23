@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
-import CounterReducer from '../Features/Counter/CounterSlice'
+import Postreducer from "../Features/Posts/PostSlice";
+
+
 
 export const store = configureStore({
 reducer:{
-counter : CounterReducer,
+    posts:Postreducer
 
 
 
